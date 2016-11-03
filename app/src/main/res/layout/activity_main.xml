@@ -10,8 +10,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="edu.up.appclub.uno.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <edu.up.appclub.uno.animation.AnimationSurface
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/animationSurface" />
+
+    </LinearLayout>
 </RelativeLayout>
