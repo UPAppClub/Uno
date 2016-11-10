@@ -19,9 +19,9 @@ public class UnoState {
 
     private ArrayList<Card> aiPlayerCards;
 
-    private int playerIDs[];
+    private int playerIDs[] = new int[2];
 
-    private String playerNames[];
+    private String playerNames[] = new String[2];
 
     private int turnID;
 
